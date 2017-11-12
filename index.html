@@ -1,168 +1,225 @@
 <!DOCTYPE html>
+
 <html lang="fr">
-  <head>
-    <title>Bootstrap template </title>
+<head>
+    <title>Bootstrap template</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="css/custom.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
-    <link rel="stylesheet" type="text/css" href="css/menu.css" />
-    <!--link rel="stylesheet" type="text/css" href="css/examples.css" /-->
+    <link href="css/custom.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css">
+    <link rel="stylesheet" type="text/css" href="css/menu.css"><!--link rel="stylesheet" type="text/css" href="css/examples.css" /-->
+</head>
 
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
-    <script type="text/javascript" src="js/jquery.fullPage.js"></script>
-    <script type="text/javascript" src="js/examples.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function() {
-            $('#fullpage').fullpage({
-                sectionsColor: ['#ffffff', '#ffffff', '#ffffff', 'ffffff', '#ffffff'],
-                anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
-                menu: '#menu',
-                scrollingSpeed: 1000
-            });
+<body>
+    <!-- Navigation -->
 
-        });
-    </script>
-  </head>
-  <body>
-<!-- Navigation -->
     <div id="header">
-        <nav class="navbar navbar-default navbar-fixed-top navbar-shrink">
-            <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header page-scroll">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand page-scroll" href="#page-top">Celine Is Awesome</a>
-                </div>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+  <a class="navbar-brand" href="#"><img src="assets/brand/bootstrap-solid.svg" width="30" height="30" alt=""></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="mymenu navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Features</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Pricing</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+  </div>
+</nav>    
+</div><!-- end nav -->
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden active">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li class="">
-                        <a class="page-scroll" href="#services">Services</a>
-                    </li>
-                    <li class="">
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li class="">
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li class="">
-                        <a class="page-scroll" href="#team">Team</a>
-                    </li>
-                    <li class="">
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
-</div>
-<div id="fullpage">
+    <div id="fullpage">
+	            <div class="section" id="section0">
+            <div class="container-fluid">
+                <!-- Container -->
 
-    <div class="section active" id="section0">
-        
-        <h2>Bootstrap 4 Five Columns</h2>
-        <h5>Full-width (within .container-fluid)</h5>
-        <hr>
-            <!-- Container -->
-            <div class="container">
-              <div class="row">
-                <div class="col-1-5">col 1</div>
-                <div class="col-1-5">col 2</div>
-                <div class="col-1-5">col 3</div>
-                <div class="col-1-5">col 4</div>
-                <div class="col-1-5">col 5</div>
-                <div class="col-1-5">col 6</div>
-                <div class="col-1-5">col 7</div>
-                <div class="col-1-5">col 8</div>
-                <div class="col-1-5">col 9</div>
-                <div class="col-1-5">col 10</div>
-                <div class="col-1-5">col 11</div>
-                <div class="col-1-5">col 12</div>
-                <div class="col-1-5">col 13</div>
-                <div class="col-1-5">col 14</div>
-                <div class="col-1-5">col 15</div>
-              </div>
-            </div><!-- //container -->
-    </div><!-- //section0 -->
-    <div class="section" id="section1">
-        <h1>Hello, world!</h1>
-        <h2>Bootstrap 4 Five Columns</h2>
-        <h5>Full-width (within .container-fluid)</h5>
-        <hr>
-            
-            <div class="container"><!-- Container -->
-                <div class="row">
-                    <div class="col-sm-4">
-                        <div class="card" style="width: 20rem;">
-                            <img class="card-img-top" src="..." alt="Card image cap">
-                            <div class="card-block">
-                            <h4 class="card-title">Card title</h4>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="card" style="width: 20rem;">
-                            <img class="card-img-top" src="..." alt="Card image cap">
-                            <div class="card-block">
-                            <h4 class="card-title">Card title</h4>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="card" style="width: 20rem;">
-                            <img class="card-img-top" src="..." alt="Card image cap">
-                            <div class="card-block">
-                            <h4 class="card-title">Card title</h4>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div><!-- //container -->
-            
-    </div><!-- //section1 -->
-    <div class="section" id="section2">         
-            <div class="container-fluid"><!-- Container -->
                 <div class="row">
                     <div class="col-sm-12">
-                    <h1>Portraits du Patrimoine</h1>    
-                    
+                        <h1>Portraits du Patrimoine</h1>
                     </div>
-                    <div class="col-sm-12 col-md-6 nopadding">
-                        <img class="img-fluid" src="https://fakeimg.pl/1280x900/?text=image">
+
+                    <div class="col-sm-12 col-md-6 nopadding"></div>
+
+                    <div class="col-sm-12 col-md-6"></div>
+                </div>
+            </div><!-- //container -->
+        </div><!-- //section0 -->
+        <div class="section" id="section1">
+            <h2>Bootstrap 4 Five Columns</h2>
+
+            <h5>Full-width (within .container-fluid)</h5>
+            <hr>
+            <!-- Container -->
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-1-5 metierbleu">
+                        col 1
                     </div>
-                    <div class="col-sm-12 col-md-6 droite">
-                        
+
+                    <div class="col-1-5">
+                        col 2
+                    </div>
+
+                    <div class="col-1-5 metierbleu1">
+                        col 3
+                    </div>
+
+                    <div class="col-1-5">
+                        col 4
+                    </div>
+
+                    <div class="col-1-5">
+                        col 5
+                    </div>
+
+                    <div class="col-1-5">
+                        col 6
+                    </div>
+
+                    <div class="col-1-5">
+                        col 7
+                    </div>
+
+                    <div class="col-1-5">
+                        col 8
+                    </div>
+
+                    <div class="col-1-5">
+                        col 9
+                    </div>
+
+                    <div class="col-1-5">
+                        col 10
+                    </div>
+
+                    <div class="col-1-5">
+                        col 11
+                    </div>
+
+                    <div class="col-1-5">
+                        col 12
+                    </div>
+
+                    <div class="col-1-5">
+                        col 13
+                    </div>
+
+                    <div class="col-1-5">
+                        col 14
+                    </div>
+
+                    <div class="col-1-5">
+                        col 15
                     </div>
                 </div>
-
             </div><!-- //container -->
-            
-    </div><!-- //section1 -->
+        </div><!-- //section1 -->
+
+        <div class="section" id="section2">
+            <h1>Hello, world!</h1>
+
+            <h2>Bootstrap 4 Five Columns</h2>
+
+            <h5>Full-width (within .container-fluid)</h5>
+            <hr>
+
+            <div class="container">
+                <!-- Container -->
+
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="card" style="width: 20rem;">
+                            <img class="card-img-top" src="..." alt="Card image cap">
+
+                            <div class="card-block">
+                                <h4 class="card-title">Card title</h4>
+
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p><a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="card" style="width: 20rem;">
+                            <img class="card-img-top" src="..." alt="Card image cap">
+
+                            <div class="card-block">
+                                <h4 class="card-title">Card title</h4>
+
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p><a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="card" style="width: 20rem;">
+                            <img class="card-img-top" src="..." alt="Card image cap">
+
+                            <div class="card-block">
+                                <h4 class="card-title">Card title</h4>
+
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p><a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- //container -->
+        </div><!-- //section2 -->
+
+        <div class="section" id="section3">
+            <div class="container-fluid">
+                <!-- Container -->
+
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h1>Portraits du Patrimoine</h1>
+                    </div>
+
+                    <div class="col-sm-12 col-md-6 nopadding"><img class="img-fluid" src="https://fakeimg.pl/1280x900/?text=image"></div>
+
+                    <div class="col-sm-12 col-md-6 droite"></div>
+                </div>
+            </div><!-- //container -->
+        </div><!-- //section3 -->
 
 
-</div><!--end fullpage -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-  </body>
+		
+    
+    
+    </div><!--end fullpage -->
+    
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+	
+	<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+	<script type="text/javascript" src="js/scrolloverflow.js"></script>
+
+	<script type="text/javascript" src="js/examples.js"></script>
+	<script type="text/javascript">
+	    $(document).ready(function() {
+	            $('#fullpage').fullpage({
+	                sectionsColor: ['#ffffff', '#ffffff', '#ffffff', 'ffffff', '#ffffff'],
+	                anchors: ['firstPage', 'secondPage', '3epage', '4page', 'lastPage'],
+	                menu: '#menu',
+	                scrollingSpeed: 1000,
+					scrollOverflow: true
+	            });
+	
+	        });
+    </script>
+</body>
 </html>

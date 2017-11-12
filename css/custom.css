@@ -1,3 +1,12 @@
+/*
+	Les couleurs le vert : 	#29B173
+							#1C9C5A
+	Le bleu #2C4291
+	
+	metiers : 	#293A86
+				#084B89
+*/
+
 @media(min-width: 768px){
   .col-1-5{
     width: 50%;
@@ -34,7 +43,14 @@
   border: 3px dashed red;
   height: 150px;
 }
-
+/*SECTION FULLPAGE*/
+.section{
+	background-size: cover;
+}
+#section0{
+		background-image: url(../assets/img/bg5.jpg);
+	}
+	
 .section:before {
     content:'';
     position:absolute;
@@ -54,4 +70,27 @@
 .nopadding {
    padding: 0 !important;
    margin: 0 !important;
+}
+
+.navbar {
+	margin-top: 10px;
+	background-color: transparent !important;
+}
+.mymenu{
+	margin:0px 140px;
+	padding: 0px 20px;
+}
+ul.mymenu{
+	background-color: #fff;
+}
+.metierbleu{
+	background-color: #084B89;
+	box-shadow: 0 0 20px rgba(0,0,0,0.5) inset;
+}
+.metierbleu1{
+	background-color: #293A86;
+	box-shadow: 0 0 20px rgba(0,0,0,0.5) inset;
+}
+.metierimage{
+	
 }
