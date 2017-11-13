@@ -6,10 +6,42 @@
 	metiers : 	#293A86
 				#084B89
 */
+body{
+  font-family: 'Montserrat', sans-serif !important;
+  color: #333;
+  color: rgba(0,0,0,0.5);
+  font-size: 15px;
+}
+p{
+  font-size: 1em;
+}
+.light{
+  color: #ffffff !important;
+}
+a{
+  color: #29B173 !important;
+  text-transform: uppercase;
+}
+btn.primary{
+  background:#29B173;
+}
+h1{
+  text-transform: uppercase!important;
+  font-weight: 900 !important;
+  font-size: 6em;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-weight: normal;
+    text-transform: uppercase!important;
+    font-size: 100%;
+    margin:0;
+    padding:0;
+    color:#444;
+}
 
 @media(min-width: 768px){
   .col-1-5{
-    width: 50%;
+    width: 33%;
     float: left;
     position: relative;
     min-height: 1px;
@@ -30,17 +62,19 @@
 
 @media(max-width: 768px){
   .col-1-5{
-    width:100%;
+    width:50%;
     float: left;
     position: relative;
     min-height: 1px;
     padding-right: 15px;
     padding-left: 15px;
   }
+  #section0 h1{
+    font-size: 1.3em;
+  }
 }
 
 .col-1-5 {
-  border: 3px dashed red;
   height: 150px;
 }
 /*SECTION FULLPAGE*/
@@ -48,7 +82,8 @@
 	background-size: cover;
 }
 #section0{
-		background-image: url(../assets/img/bg5.jpg);
+		background-image: url(../assets/img/home.jpg);
+    background-position: bottom center;
 	}
 	
 .section:before {
@@ -61,7 +96,7 @@
     left:0;
 }
 .droite{
-	background-color: #000000;
+	background-color: #171717;
 }
 .row {
   margin-right: -15px;
@@ -75,13 +110,25 @@
 .navbar {
 	margin-top: 10px;
 	background-color: transparent !important;
+  text-transform: uppercase;
+  font-size: 0.7em;
+  font-weight: 600;
 }
 .mymenu{
-	margin:0px 140px;
-	padding: 0px 20px;
+	margin:0px 140px 0px 0px;
+
 }
 ul.mymenu{
 	background-color: #fff;
+}
+.nav-item {
+    border-right: 1px solid #ccc;
+    display: inline-block;
+    line-height: 60px;
+    padding: 10px 15px 0px;
+}
+.nav-item.active {
+    border-bottom: 10px solid black;
 }
 .metierbleu{
 	background-color: #084B89;
@@ -93,4 +140,34 @@ ul.mymenu{
 }
 .metierimage{
 	
+}
+.metier1{
+  background-image:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample99.jpg);
+  background-color: #084B89;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5) inset;
+}
+/*Section 1*/
+.titresection1{
+  padding-left: 10%;
+}
+
+/*CARD IMG*/
+.card-img-top {
+    border-bottom: 8px solid green;
+}
+.card-title{
+  padding-top: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.card{
+  border: none !important;
+}
+.card-text {
+    font-size: 0.8em;
+}
+/*boite*/
+.boite {
+    max-width: 70%;
+    padding: 50px 0 0 50px !important;
 }
