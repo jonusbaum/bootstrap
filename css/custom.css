@@ -6,11 +6,12 @@
 	metiers : 	#293A86
 				#084B89
 */
-body{
+html,body{
   font-family: 'Montserrat', sans-serif !important;
   color: #333;
   color: rgba(0,0,0,0.5);
   font-size: 15px;
+  height: 100%;
 }
 p{
   font-size: 1em;
@@ -113,6 +114,10 @@ h1,h2,h3,h4,h5,h6 {
   text-transform: uppercase;
   font-size: 0.7em;
   font-weight: 600;
+  position: absolute !important;
+  top: 0;
+  width:100%;
+  z-index: 10;
 }
 .mymenu{
 	margin:0px 140px 0px 0px;
@@ -142,7 +147,15 @@ ul.mymenu{
 	
 }
 .metier1{
-  background-image:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample99.jpg);
+  overlay: ;
+  background:
+   /* top, transparent red */ 
+    linear-gradient(
+      rgba(255, 0, 0, 0.45), 
+      rgba(255, 0, 0, 0.45)
+    ),
+    /* bottom, image */
+    url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample99.jpg);
   background-color: #084B89;
   box-shadow: 0 0 20px rgba(0,0,0,0.5) inset;
 }
@@ -170,4 +183,8 @@ ul.mymenu{
 .boite {
     max-width: 70%;
     padding: 50px 0 0 50px !important;
+}
+
+#section3 .fp-tableCell {
+    vertical-align: top !important;
 }
