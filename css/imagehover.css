@@ -13,6 +13,7 @@
     display: inline-block;
     margin: 0;
     max-width: 100%;
+    height: auto;
     background-color: #2266a5;
     color: #fff;
     overflow: hidden;
@@ -92,7 +93,7 @@
     -ms-transform: translate(0, 0);
     -o-transform: translate(0, 0);
     transform: translate(0, 0);
-    background-image: url('../example-image.jpg')!important;
+    background-image: url('../assets/img/example-image.jpg')!important;
     background-size: cover;
 }
 /* imghvr-slide-up
@@ -110,7 +111,6 @@
     -ms-transform: translateY(100%);
     -o-transform: translateY(100%);
     transform: translateY(100%);
-    background-image: url('../example-image.jpg')!important;
+    background-image: url('../assets/img/example-image.jpg')!important;
 }
-
 

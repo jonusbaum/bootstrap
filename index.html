@@ -10,7 +10,9 @@
     <link href="css/custom.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous" type="text/css">
     <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css">
-    <link rel="stylesheet" type="text/css" href="css/menu.css"><!--link rel="stylesheet" type="text/css" href="css/examples.css" /-->
+    <link rel="stylesheet" type="text/css" href="css/menu.css">
+    <link href="css/imagehover.css" rel="stylesheet" media="all">
+<!--link rel="stylesheet" type="text/css" href="css/examples.css" /-->
 </head>
 
 <body>
@@ -63,12 +65,22 @@
             <div class="container">
                 <h1>Découvrez les Métiers<br>du Patrimoine</h1>
                 <div class="row">
-                    <div class="col-1-5 metierbleu1">
-                        col 1
+                    <div class="col-1-5">                       
+                          <figure class="imghvr-slide-up-1"><img src="assets/img/example-image-2.jpg" alt="example-image">
+                            <figcaption1 >
+                              <h3>Hello World</h3>
+                              <p>Life is too important to be taken seriously!</p>
+                            </figcaption1>
+                          </figure>  
                     </div>
-
-                    <div class="col-1-5 metier1">
-                        col 2
+                    <div class="col-1-5">
+                        
+                          <figure class="imghvr-slide-up"><img src="assets/img/example-image.jpg" alt="example-image">
+                            <figcaption>
+                              <h3>Hello World</h3>
+                              <p>Life is too important to be taken seriously!</p>
+                            </figcaption>
+                          </figure>                                                    
                     </div>
 
                     <div class="col-1-5 metierbleu1">
@@ -139,20 +151,24 @@
 
                 <div class="row">
                     <div class="col-sm-4">
-                        <div class="card" style="width: 20rem;">
-                            <img class="card-img-top img-fluid" src="https://static.pexels.com/photos/242124/pexels-photo-242124.jpeg" alt="Card image cap">
+                        <div class="card-deck">
+                            <div class="card" style="width: 20rem;">
+                                <div class="square">
+                                    <img class="img-fluid" src="https://static.pexels.com/photos/242124/pexels-photo-242124.jpeg" alt="Card image cap">
+                                </div>
 
-                            <div class="card-block">
-                                <p class="card-title">Card title</p>
+                                <div class="card-block">
+                                    <p class="card-title">Card title</p>
 
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p><a href="#" class="btn btn-primary">Lire</a>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p><a href="#" class="btn btn-primary">Lire</a>
+                                </div>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-sm-4">
                         <div class="card" style="width: 20rem;">
-                            <img class="card-img-top img-fluid" src="https://static.pexels.com/photos/210654/pexels-photo-210654.jpeg" alt="Card image cap">
+                            <img class="card-img-top square img-fluid" src="https://static.pexels.com/photos/210654/pexels-photo-210654.jpeg" alt="Card image cap">
 
                             <div class="card-block">
                                 <p class="card-title">Card title</p>
