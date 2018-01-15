@@ -1,0 +1,63 @@
+#fiche-metier #section0{
+	height:600px;
+}
+#section3 .fp-tableCell {
+    vertical-align: top !important;
+}
+.titresection1{
+  padding-left: 10%;
+}
+
+.metier-section{
+	padding: 0px 50px !important;
+}
+
+.metier-enbref{
+  padding:0px 50px;
+  background-color:#ffffff;
+  position:relative;top:-100px;
+}
+
+@media(max-width: 990px){
+  .col-1-5{
+    width:50%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+   /* padding-right: 15px;
+    padding-left: 15px;*/
+  }
+  #section0 h1{
+    font-size: 1.3em;
+  }
+  .metier-section{
+	padding: 5px !important;
+	}
+  .metier-enbref{
+  padding:0px 50px;
+  background-color:#ffffff;
+  position:relative;top:0px;
+}
+}
+
+ .owl-next, .owl-prev {
+    width: 40px;
+    height: 250px !important;
+    margin-top: -20px;
+    position: absolute;
+    top: 0;
+    border-radius: 0px !important;
+    margin: 0px !important;
+    opacity: .5;
+  }
+  .owl-prev {
+    left: 0px;
+  }
+  .owl-next {
+    right: 0px;
+  }
+.myowlnav {
+    top: 45%;
+    position: relative;
+    color: black;
+}

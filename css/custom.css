@@ -1,10 +1,8 @@
 /*
-	Les couleurs le vert : 	#29B173
-							#1C9C5A
-	Le bleu #2C4291
-	
-	metiers : 	#293A86
-				#084B89
+	LES COULEURS 
+  le vert : #29B173 - #1C9C5A
+	Le bleu : #2C4291
+	metiers : 	#293A86- #084B89
 */
 html,body{
   font-family: 'Montserrat', sans-serif !important;
@@ -12,33 +10,13 @@ html,body{
   color: rgba(0,0,0,0.5);
   font-size: 15px;
   height: 100%;
+  background-color: #f3f1f0 !important;
 }
-p{
-  font-size: 1em;
-}
-.light{
-  color: #ffffff !important;
-}
-a{
-  color: #29B173 !important;
-  text-transform: uppercase;
-}
+
 btn.primary{
   background:#29B173;
 }
-h1{
-  text-transform: uppercase!important;
-  font-weight: 900 !important;
-  font-size: 6em;
-}
-h1,h2,h3,h4,h5,h6 {
-    font-weight: normal;
-    text-transform: uppercase!important;
-    font-size: 100%;
-    margin:0;
-    padding:0;
-    color:#444;
-}
+
 
 @media(min-width: 768px){
   .col-1-5{
@@ -159,35 +137,16 @@ ul.mymenu{
   background-color: #084B89;
   box-shadow: 0 0 20px rgba(0,0,0,0.5) inset;
 }
-/*Section 1*/
-.titresection1{
-  padding-left: 10%;
-}
 
-/*CARD IMG*/
-.card-img-top {
-    border-bottom: 8px solid green;
-}
-.card-title{
-  padding-top: 30px;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-.card{
-  border: none !important;
-}
-.card-text {
-    font-size: 0.8em;
-}
+
+
 /*boite*/
 .boite {
     max-width: 70%;
     padding: 50px 0 0 50px !important;
 }
 
-#section3 .fp-tableCell {
-    vertical-align: top !important;
-}
+
 
 .use-cover-background {
   background-size: cover;
@@ -197,4 +156,12 @@ ul.mymenu{
   margin: 10px 0;
   width: 300px;
   height: 300px;
+}
+
+
+/*OWL*/
+#demos .owl-carousel .item {
+    height: 250px;
+    background: #4DC7A0;
+    padding: 1rem;
 }
